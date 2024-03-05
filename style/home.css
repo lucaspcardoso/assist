@@ -1,0 +1,48 @@
+main{
+    height: max-content;
+    background-color: #2290C4;
+}
+
+.containerBlockInitial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2290C4;
+    height: 83vh;
+    background-image: url(../imgs/1.png);
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: start;
+    background-size: 90vw 82vh;
+}
+
+.containerBlockInitial .containerTilte{
+    width: 32%;
+    margin-top: 6%;
+}
+
+.containerBlockInitial div img{
+    height: 100%;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.subTitle{
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerBlockInitial{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imgVetor1 {
+     display: none;
+    }
+  }
