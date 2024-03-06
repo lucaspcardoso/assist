@@ -12,6 +12,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	background-color: transparent;
 }
 
 .containerLogo {
@@ -59,4 +60,19 @@ nav div.containerElementsMenu ul span li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/* scroll */
+
+body::-webkit-scrollbar {
+	width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #2290c4;
+	border-radius: 20px;
 }
