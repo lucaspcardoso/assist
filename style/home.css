@@ -82,7 +82,7 @@ main {
 }
 
 .containerProducts img.vetor {
-	width: 45vw;
+	width: 35vw;
 }
 
 .contaienrProductsTexto {
@@ -128,6 +128,9 @@ main {
 	width: 100%;
 	text-align: center;
 	margin-top: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content:center;
 }
 
 .containerService h1 {
@@ -143,6 +146,7 @@ main {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	width: 50%;
 }
 
 .containerServiceTexto * {
